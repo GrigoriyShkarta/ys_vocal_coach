@@ -26,12 +26,14 @@ export const metadata: Metadata = {
 	keywords:
 		'вокал, екстремальний вокал, scream, growl, сучасний вокал, рок вокал, уроки вокалу, вокальний коучинг, спів, навчання вокалу, вокальні техніки, голос, співак, вокальні заняття',
 	viewport: 'width=device-width, initial-scale=1',
-	authors: [{ name: 'YS Vocal Coach', url: 'https://ysvocalcoach.ua' }],
+	authors: [
+		{ name: 'YS Vocal Coach', url: 'https://ys-vocal-coach.vercel.app/' },
+	],
 	openGraph: {
 		title: 'YS Vocal Coach — викладач сучасного, рок та екстремального вокалу',
 		description:
 			'Покращуй свій вокал з індивідуальними уроками екстремального та сучасного співу. Техніки scream, growl, чистий спів. Онлайн навчання.',
-		url: 'https://ysvocalcoach.ua',
+		url: 'https://ys-vocal-coach.vercel.app/',
 		siteName: 'YS Vocal Coach',
 		locale: 'uk_UA',
 		type: 'website',
@@ -74,7 +76,7 @@ export default function RootLayout({
 							'@type': 'Person',
 							name: 'YS Vocal Coach',
 							jobTitle: 'Викладач сучасного, рок та екстремального вокалу',
-							url: 'https://ysvocalcoach.ua',
+							url: 'https://ys-vocal-coach.vercel.app/',
 							sameAs: ['https://instagram.com/ysvocalcoach'],
 						}),
 					}}
