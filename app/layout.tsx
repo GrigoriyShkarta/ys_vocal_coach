@@ -43,6 +43,7 @@ export const metadata: Metadata = {
 				width: 1200,
 				height: 630,
 				alt: 'YS Vocal Coach — викладач сучасного, рок та екстремального вокалу',
+				type: 'image/jpeg',
 			},
 		],
 	},
@@ -81,9 +82,6 @@ export default function RootLayout({
 						}),
 					}}
 				/>
-				<head>
-					<link rel='icon' href='/favicon.ico' />
-				</head>
 				{children}
 			</body>
 		</html>
