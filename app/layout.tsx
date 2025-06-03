@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 	subsets: ['latin'],
 })
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+// const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 
 export const metadata: Metadata = {
 	title: 'YS Vocal Coach — Викладач сучасного, рок та екстремального вокалу',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		images: [
 			{
-				url: `${baseUrl}/images/ys_coach.jpeg`,
+				url: 'https://ys-vocal-coach.vercel.app/images/ys_coach.jpeg',
 				width: 1200,
 				height: 630,
 				alt: 'YS Vocal Coach — викладач сучасного, рок та екстремального вокалу',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 		description:
 			'Індивідуальні уроки екстремального, та сучасного вокалу. Онлайн навчання. Техніки scream, growl, чистий спів.',
 		creator: '@ysvocalcoach',
-		images: [`${baseUrl}/images/ys_coach.jpeg`],
+		images: ['https://ys-vocal-coach.vercel.app/images/ys_coach.jpeg'],
 	},
 	robots: 'index, follow',
 }
@@ -87,3 +87,4 @@ export default function RootLayout({
 		</html>
 	)
 }
+
