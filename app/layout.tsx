@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'YS Vocal Coach — викладач сучасного, рок та екстремального вокалу',
 		description:
-			'Покращуй свій вокал з індивідуальними уроками екстремального та сучасного співу. Техніки scream, growl, чистий спів. Онлайн навчання.',
+			'Індивідуальні уроки сучасного, рок та екстремального вокалу. Опановуй техніки scream, growl, чистий спів. Онлайн навчання для будь-якого рівня.',
 		url: 'https://ys-vocal-coach.vercel.app/',
 		siteName: 'YS Vocal Coach',
 		locale: 'uk_UA',
