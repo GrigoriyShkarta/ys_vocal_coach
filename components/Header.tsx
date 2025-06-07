@@ -17,7 +17,7 @@ const Header = () => {
 			<div className='container mx-auto px-6 py-4 flex justify-between items-center'>
 				<motion.div whileHover={{ scale: 1.05 }}>
 					<span className='text-2xl font-bold text-red-500 hover:text-red-400 transition-colors'>
-						VOCAL<span className='text-white'>MASTER</span>
+						YS <span className='text-white'>VOCAL COACH</span>
 					</span>
 				</motion.div>
 

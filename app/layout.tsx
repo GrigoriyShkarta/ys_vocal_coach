@@ -20,11 +20,12 @@ export const metadata: Metadata = {
 	description:
 		'Індивідуальні уроки сучасного, рок та екстремального вокалу. Опановуй техніки scream, growl, чистий спів. Онлайн навчання для будь-якого рівня.',
 	icons: {
-		icon: '/favicon.ico', // путь к иконке
-		shortcut: '/favicon.ico', // для браузеров, поддерживающих shortcut icon
+		icon: '/favicon.ico',
+		shortcut: '/favicon.ico',
+		apple: '/favicon.ico',
 	},
 	keywords:
-		'вокал, екстремальний вокал, scream, growl, сучасний вокал, рок вокал, уроки вокалу, вокальний коучинг, спів, навчання вокалу, вокальні техніки, голос, співак, вокальні заняття',
+		'ys vocal coach, vocal coach, вокал, екстремальний вокал, scream, growl, сучасний вокал, рок вокал, уроки вокалу, вокальний коучинг, спів, навчання вокалу, вокальні техніки, голос, співак, вокальні заняття',
 	viewport: 'width=device-width, initial-scale=1',
 	authors: [
 		{ name: 'YS Vocal Coach', url: 'https://ys-vocal-coach.vercel.app/' },
@@ -51,11 +52,24 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'YS Vocal Coach — викладач сучасного, рок та екстремального вокалу',
 		description:
-			'Індивідуальні уроки екстремального, та сучасного вокалу. Онлайн навчання. Техніки scream, growl, чистий спів.',
+			'Індивідуальні уроки сучасного, рок та екстремального вокалу. Опановуй техніки scream, growl, чистий спів. Онлайн навчання для будь-якого рівня.',
 		creator: '@ysvocalcoach',
 		images: ['https://ys-vocal-coach.vercel.app/images/ys_coach.jpeg'],
 	},
-	robots: 'index, follow',
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
+	},
+	verification: {
+		google: 'qcvIVqiwWGMP7_8wlcsGFoa_KSSGBs6fbKjw679dFPI',
+	},
 }
 
 export default function RootLayout({
@@ -87,3 +101,4 @@ export default function RootLayout({
 		</html>
 	)
 }
+

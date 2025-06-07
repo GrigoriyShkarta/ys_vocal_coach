@@ -11,10 +11,10 @@ const Footer = () => {
 							href='/'
 							className='text-2xl font-bold text-red-500 hover:text-red-400 transition-colors'
 						>
-							VOCAL<span className='text-white'>MASTER</span>
+							YS <span className='text-white'>VOCAL COACH</span>
 						</Link>
 						<p className='text-gray-400 mt-2'>
-							Екстремальний та естрадний вокал
+							Сучасний, рок та ектремальний вокалю.
 						</p>
 					</div>
 
