@@ -14,7 +14,7 @@ const Footer = () => {
 							YS <span className='text-white'>VOCAL COACH</span>
 						</Link>
 						<p className='text-gray-400 mt-2'>
-							Сучасний, рок та ектремальний вокалю.
+							Сучасний, рок та ектремальний вокал.
 						</p>
 					</div>
 
@@ -98,7 +98,9 @@ const Footer = () => {
 				</div>
 
 				<div className='border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm'>
-					<p>© {new Date().getFullYear()} VocalMaster. Усі права захищені.</p>
+					<p>
+						© {new Date().getFullYear()} YS VOCAL COACH. Усі права захищені.
+					</p>
 				</div>
 			</div>
 		</footer>

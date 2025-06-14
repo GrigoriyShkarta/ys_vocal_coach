@@ -1,39 +1,50 @@
 import React from 'react'
 import ProductCard from './ProductCard'
 import mk from '@/assets/mk.jpeg'
-import rock_club from '@/assets/rk.png'
+import rock_club from '@/assets/rock_club.jpg'
 import fuyd from '@/assets/fuyd.jpeg'
 import workbook from '@/assets/workbook.jpg'
 import re from '@/assets/re.jpg'
 import group from '@/assets/group.jpg'
+import indiv from '@/assets/indiv.png'
 import { Product } from '@/types/types'
 
 const products: Product[] = [
 	{
+		id: 7,
+		title: 'Індивідуальне навчання',
+		description:
+			'Індивідуальні онлайн-уроки сучасного, рок та екстремального вокалу. Розкрий свій потенціал з професійним викладачем Міжнародного рівня',
+		price: 'від 1 500 грн',
+		color: '#155dfc',
+		bg: indiv,
+		link: 'https://individual-lesson.vercel.app/',
+	},
+	{
+		id: 6,
+		title: 'Екстрим-техніки з 0',
+		description:
+			'Онлайн-курс у міні-групах, де ти крок за кроком опануєш всі екстремальні техніки вокалу — без болю, страху й надриву. Авторська методика. Повна підтримка. Живі уроки.',
+		price: '3 000 грн/міс',
+		color: '#ed3ddd',
+		bg: group,
+		link: 'https://extreme-group-sable.vercel.app/',
+	},
+	{
 		id: 1,
-		title: 'Майстер-клас',
+		title: 'Індивідуальний майсткр клас з екстрим-вокалу',
 		description:
 			'Це унікальне навчання для викладачів вокалу та вокалістів, які прагнуть глибоко зануритися у світ екстрим-технік.',
 		price: '5 000 грн',
-		color: '#0060eb',
+		color: '#e7000b',
 		bg: mk,
 		link: 'https://mk-two-theta.vercel.app/',
 	},
 	{
-		id: 2,
-		title: 'Рок клуб',
-		description:
-			'Ексклюзивний закритий клуб для вокалістів та викладачів, присвячений розвитку та вдосконаленню сучасного, рок та екстрим-вокалу.',
-		price: '600 грн/міс',
-		color: '#53caff',
-		bg: rock_club,
-		link: 'https://rock-club.vercel.app/',
-	},
-	{
 		id: 3,
-		title: 'Fire Up Your Drive',
+		title: 'Марфон Fire Up Your Drive',
 		description:
-			'"Fire Up Your Drive" — це марафон, спрямований на розвиток екстремальноъ техніки "Drive".',
+			'"Fire Up Your Drive" — це марафон, спрямований на розвиток екстремальної техніки "Drive".',
 		price: 'від 1500 грн',
 		color: '#ffb52c',
 		bg: fuyd,
@@ -41,7 +52,7 @@ const products: Product[] = [
 	},
 	{
 		id: 4,
-		title: 'Workbook Fire Up Your Drive',
+		title: 'Збірка вправ Fire Up Your Drive',
 		description:
 			'20 унікальних вправ у рок-стилі для тренування екстремальної вокальної техніки “Drive”',
 		price: 'від 1500 грн',
@@ -51,7 +62,7 @@ const products: Product[] = [
 	},
 	{
 		id: 5,
-		title: 'Rock Etudes',
+		title: 'Збірка вправ Rock Etudes',
 		description:
 			'ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”.',
 		price: 'від 1 790 грн',
@@ -60,14 +71,14 @@ const products: Product[] = [
 		link: 'https://rock-etudes-us.vercel.app/',
 	},
 	{
-		id: 6,
-		title: 'Групове навчання',
+		id: 2,
+		title: 'Rock Club',
 		description:
-			'Онлайн-курс у міні-групах, де ти крок за кроком опануєш всі екстремальні техніки вокалу — без болю, страху й надриву. Авторська методика. Повна підтримка. Живі уроки.',
-		price: '3 000 грн/міс',
-		color: '#ed3ddd',
-		bg: group,
-		link: 'https://extreme-group-sable.vercel.app/',
+			'Ексклюзивний закритий клуб для вокалістів та викладачів, присвячений розвитку та вдосконаленню сучасного, рок та екстрим-вокалу.',
+		price: '600 грн/міс',
+		color: '#53caff',
+		bg: rock_club,
+		link: 'https://rock-club.vercel.app/',
 	},
 ]
 

@@ -4,6 +4,7 @@ import React from 'react'
 import AbstractElements from './AbstractElements'
 import { motion } from 'framer-motion'
 import { FaChevronDown } from 'react-icons/fa' // Иконка стрелки
+import Link from 'next/link'
 
 const Hero = () => {
 	const handleScroll = () => {
@@ -35,7 +36,7 @@ const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
 				>
-					Роскрий свій <span className='text-red-500'>вокальний</span> потенціал
+					Розкрий <span className='text-red-500'>свій вокальний</span> потенціал
 				</motion.h1>
 
 				<motion.p
@@ -44,26 +45,28 @@ const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
 				>
-					Сучасний, рок та екстремальний вокал с профессійним коучем. Техніки,
-					які працюють.
+					Сучасний, рок та екстремальний вокал с профессійним коучем. Навчання,
+					яке працює!
 				</motion.p>
 
-				<motion.button
-					className='relative bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:scale-105 overflow-hidden w-fit mx-auto'
-					initial={{ opacity: 0, scale: 0.9 }}
-					animate={{ opacity: 1, scale: 1 }}
-					transition={{
-						duration: 0.5,
-						delay: 0.6,
-						type: 'spring',
-						stiffness: 200,
-					}}
-					whileHover={{ scale: 1.05 }}
-					whileTap={{ scale: 0.95 }}
-				>
-					<span className='absolute inset-0 bg-red-500 opacity-30 blur-2xl rounded-full animate-pulse' />
-					<span className='relative cursor-pointer'>Почати навчання</span>
-				</motion.button>
+				<Link href={`#products`}>
+					<motion.button
+						className='relative bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:scale-105 overflow-hidden w-fit mx-auto'
+						initial={{ opacity: 0, scale: 0.9 }}
+						animate={{ opacity: 1, scale: 1 }}
+						transition={{
+							duration: 0.5,
+							delay: 0.6,
+							type: 'spring',
+							stiffness: 200,
+						}}
+						whileHover={{ scale: 1.05 }}
+						whileTap={{ scale: 0.95 }}
+					>
+						<span className='absolute inset-0 bg-red-500 opacity-30 blur-2xl rounded-full animate-pulse' />
+						<span className='relative cursor-pointer'>Почати навчання</span>
+					</motion.button>
+				</Link>
 			</motion.div>
 
 			{/* Стрелка вниз */}

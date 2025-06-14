@@ -87,10 +87,9 @@ const Header = () => {
 									className='block text-white hover:text-red-400 transition-colors py-2'
 									onClick={() => setIsOpen(false)}
 								>
-									{item === 'about' && 'О коуче'}
-									{item === 'products' && 'Продукты'}
-									{item === 'testimonials' && 'Отзывы'}
-									{item === 'contact' && 'Контакты'}
+									{item === 'about' && 'Про коуча'}
+									{item === 'products' && 'Продукти'}
+									{item === 'testimonials' && 'Відгуки'}
 								</Link>
 							</motion.div>
 						))}
