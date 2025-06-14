@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 		apple: '/favicon.ico',
 	},
 	keywords:
-		'ys vocal coach, vocal coach, вокал, екстремальний вокал, scream, growl, сучасний вокал, рок вокал, уроки вокалу, вокальний коучинг, спів, навчання вокалу, вокальні техніки, голос, співак, вокальні заняття',
+		'ys vocal coach, vocal coach, яна сабада, уроки вркала, экстримальный вокал, вокал, екстремальний вокал, scream, growl, сучасний вокал, рок вокал, уроки вокалу, вокальний коучинг, спів, навчання вокалу, вокальні техніки, голос, співак, вокальні заняття',
 	viewport: 'width=device-width, initial-scale=1',
 	authors: [
 		{ name: 'YS Vocal Coach', url: 'https://ys-vocal-coach.vercel.app/' },
@@ -132,4 +132,3 @@ export default function RootLayout({
 		</html>
 	)
 }
-
