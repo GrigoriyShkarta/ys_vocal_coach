@@ -6,7 +6,7 @@ import fuyd from '@/assets/fuyd.jpeg'
 import workbook from '@/assets/workbook.jpg'
 import re from '@/assets/re.jpg'
 import group from '@/assets/group.jpg'
-import indiv from '@/assets/indiv.png'
+import indiv from '@/assets/indiv1.jpg'
 import { Product } from '@/types/types'
 
 const products: Product[] = [
@@ -68,7 +68,7 @@ const products: Product[] = [
 		price: 'від 1 790 грн',
 		color: '#9346e8',
 		bg: re,
-		link: 'https://rock-etudes-us.vercel.app/',
+		link: 'https://rock-etudes-new.vercel.app//',
 	},
 	{
 		id: 2,

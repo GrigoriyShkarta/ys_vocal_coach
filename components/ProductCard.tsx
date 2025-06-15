@@ -41,9 +41,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 				</div>
 
 				<div className='px-6 pb-6 flex-col justify-between'>
-					<div className='flex justify-between items-center mb-4'>
+					{/* <div className='flex justify-between items-center mb-4'>
 						<span className='text-[24px] font-medium'>{product.price}</span>
-					</div>
+					</div> */}
 
 					<a href={product.link} target='_blank'>
 						<motion.button
