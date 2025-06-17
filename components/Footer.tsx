@@ -14,7 +14,7 @@ const Footer = () => {
 							YS <span className='text-white'>VOCAL COACH</span>
 						</Link>
 						<p className='text-gray-400 mt-2'>
-							Сучасний, рок та ектремальний вокал.
+							Сучасний, рок та екстремальний вокал.
 						</p>
 					</div>
 
