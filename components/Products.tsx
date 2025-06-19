@@ -6,7 +6,7 @@ import fuyd from '@/assets/fuyd.jpeg'
 import workbook from '@/assets/workbook.jpg'
 import re from '@/assets/re.jpg'
 import group from '@/assets/group.jpg'
-import indiv from '@/assets/indiv1.jpg'
+import indiv from '@/assets/indiv3.jpeg'
 import { Product } from '@/types/types'
 
 const products: Product[] = [
