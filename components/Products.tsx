@@ -1,13 +1,12 @@
 import React from 'react'
 import ProductCard from './ProductCard'
 import mk from '@/assets/mk.jpeg'
-import rock_club from '@/assets/rock_club.jpg'
 import fuyd from '@/assets/fuyd.jpeg'
 import workbook from '@/assets/workbook.jpg'
 import re from '@/assets/re.jpg'
 import group from '@/assets/group.jpg'
 import indiv from '@/assets/indiv3.jpeg'
-import { Product } from '@/types/types'
+import {Product} from '@/types/types'
 
 const products: Product[] = [
 	{
@@ -70,16 +69,16 @@ const products: Product[] = [
 		bg: re,
 		link: 'https://rock-etudes-new.vercel.app//',
 	},
-	{
-		id: 2,
-		title: 'Закритий телеграм канал "Rock Club"',
-		description:
-			'Ексклюзивний закритий клуб для вокалістів та викладачів, присвячений розвитку та вдосконаленню сучасного, рок та екстрим-вокалу.',
-		price: '600 грн/міс',
-		color: '#53caff',
-		bg: rock_club,
-		link: 'https://rock-club.vercel.app/',
-	},
+	// {
+	// 	id: 2,
+	// 	title: 'Закритий телеграм канал "Rock Club"',
+	// 	description:
+	// 		'Ексклюзивний закритий клуб для вокалістів та викладачів, присвячений розвитку та вдосконаленню сучасного, рок та екстрим-вокалу.',
+	// 	price: '600 грн/міс',
+	// 	color: '#53caff',
+	// 	bg: rock_club,
+	// 	link: 'https://rock-club.vercel.app/',
+	// },
 ]
 
 const Products = () => {
