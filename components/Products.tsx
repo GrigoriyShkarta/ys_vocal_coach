@@ -4,6 +4,7 @@ import mk from '@/assets/mk.jpeg'
 import fuyd from '@/assets/fuyd.jpeg'
 import workbook from '@/assets/workbook.jpg'
 import re from '@/assets/re.jpg'
+import lir from '@/assets/lir.jpg'
 import group from '@/assets/group.jpg'
 import indiv from '@/assets/indiv3.jpeg'
 import {Product} from '@/types/types'
@@ -67,7 +68,17 @@ const products: Product[] = [
 		price: 'від 1 790 грн',
 		color: '#9346e8',
 		bg: re,
-		link: 'https://rock-etudes-new.vercel.app//',
+		link: 'https://rock-etudes-new.vercel.app/',
+	},
+	{
+		id: 6,
+		title: 'Марафон "Let it Rip"',
+		description:
+			'Продувні екстремальні техніки: гроули, скріми та легка хрипотця у голосі про яку мріє кожен вокаліст',
+		price: 'від 1 790 грн',
+		color: '#00ffeb',
+		bg: lir,
+		link: 'https://let-it-rip.vercel.app/',
 	},
 	// {
 	// 	id: 2,
