@@ -21,16 +21,6 @@ const products: Product[] = [
 		link: 'https://individual-lesson.vercel.app/',
 	},
 	{
-		id: 6,
-		title: 'Курс "Екстрим-техніки з 0"',
-		description:
-			'Онлайн-курс у міні-групах, де ти крок за кроком опануєш всі екстремальні техніки вокалу — без болю, страху й надриву. Авторська методика. Повна підтримка. Живі уроки.',
-		price: '3 000 грн/міс',
-		color: '#ed3ddd',
-		bg: group,
-		link: 'https://extreme-group-sable.vercel.app/',
-	},
-	{
 		id: 1,
 		title: 'Індивідуальний майстер-клас з екстрим-вокалу',
 		description:
@@ -40,6 +30,27 @@ const products: Product[] = [
 		bg: mk,
 		link: 'https://mk-two-theta.vercel.app/',
 	},
+	{
+		id: 6,
+		title: 'Курс "Let it Rip"',
+		description:
+			'Продувні екстремальні техніки: гроули, скріми та легка хрипотця у голосі про яку мріє кожен вокаліст',
+		price: 'від 1 790 грн',
+		color: '#00ffeb',
+		bg: lir,
+		link: 'https://let-it-rip.vercel.app/',
+	},
+	// {
+	// 	id: 6,
+	// 	title: 'Курс "Екстрим-техніки з 0"',
+	// 	description:
+	// 		'Онлайн-курс у міні-групах, де ти крок за кроком опануєш всі екстремальні техніки вокалу — без болю, страху й надриву. Авторська методика. Повна підтримка. Живі уроки.',
+	// 	price: '3 000 грн/міс',
+	// 	color: '#ed3ddd',
+	// 	bg: group,
+	// 	link: 'https://extreme-group-sable.vercel.app/',
+	// },
+	
 	{
 		id: 3,
 		title: 'Марафон "Fire Up Your Drive"',
@@ -70,16 +81,7 @@ const products: Product[] = [
 		bg: re,
 		link: 'https://rock-etudes-new.vercel.app/',
 	},
-	{
-		id: 6,
-		title: 'Марафон "Let it Rip"',
-		description:
-			'Продувні екстремальні техніки: гроули, скріми та легка хрипотця у голосі про яку мріє кожен вокаліст',
-		price: 'від 1 790 грн',
-		color: '#00ffeb',
-		bg: lir,
-		link: 'https://let-it-rip.vercel.app/',
-	},
+	
 	// {
 	// 	id: 2,
 	// 	title: 'Закритий телеграм канал "Rock Club"',
